@@ -46,13 +46,16 @@ Visit node 3
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
 
 <h3>Algorithm:</h3>
-<B><ol>
+<ol>
  <li>Construct a Graph with Nodes and Edges</li>
  <li>Depth First Search Uses Stack and Recursion</li>
  <li>Insert a START node to the STACK</li>
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
-</ol></B>
+</ol>
+
+<hr>
+
 ## Program:
 ```
 from collections import defaultdict
@@ -77,7 +80,7 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
-<hr>
+
 <h3>Sample Input</h3>
 <hr>
 8 9 <BR>
